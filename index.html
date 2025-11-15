@@ -26,6 +26,15 @@
             font-size: 0.9em;
         }
 
+        .pdf-link {
+            transition: all 0.3s ease;
+        }
+
+        .pdf-link:hover {
+            transform: translateX(5px);
+            opacity: 0.8;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -1054,6 +1063,80 @@
                     <div style="background: #c8e6c9; padding: 15px; border-radius: 8px;">
                         <h5 style="color: #388e3c; margin-bottom: 5px;">Generador de Gráficos</h5>
                         <p style="color: #4a5568; font-size: 0.9em; margin: 0;">Visualizaciones interactivas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Documentos PDF por Tema -->
+        <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 15px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+            <h2 style="color: #2d3748; margin-bottom: 20px; text-align: center;">📄 Documentos PDF por Tema</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <!-- Unidad 1: Distribución Normal -->
+                <div style="background: #fff3e0; padding: 20px; border-radius: 10px; border-left: 4px solid #ff9800;">
+                    <h3 style="color: #e65100; margin-bottom: 15px; font-size: 1.1em;">📈 Unidad 1: Distribución Normal</h3>
+                    <div style="background: #ffe0b2; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+                        <a href="https://www.econo.unlp.edu.ar/frontend/media/40/28040/18655012b286da4fb3232610e7002ea8.pdf" target="_blank" class="pdf-link" style="color: #e65100; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Distribuciones de Probabilidad</span>
+                        </a>
+                    </div>
+                    <div style="background: #ffe0b2; padding: 12px; border-radius: 8px;">
+                        <a href="https://www.uv.mx/cq/files/2021/02/probabilidad-y-estadistica-para-el-MEIF.pdf" target="_blank" class="pdf-link" style="color: #e65100; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Probabilidad y Estadística</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Unidad 2: Teoría del Muestreo -->
+                <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; border-left: 4px solid #2196f3;">
+                    <h3 style="color: #1565c0; margin-bottom: 15px; font-size: 1.1em;">🎯 Unidad 2: Teoría del Muestreo</h3>
+                    <div style="background: #bbdefb; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+                        <a href="https://biblioteca.ucuenca.edu.ec/digital/files/original/9a93536fd61609f0e457e10b145f89af0bb7dc40.pdf" target="_blank" class="pdf-link" style="color: #1565c0; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Teoría Elemental del Muestreo</span>
+                        </a>
+                    </div>
+                    <div style="background: #bbdefb; padding: 12px; border-radius: 8px;">
+                        <a href="https://www.uv.mx/cq/files/2021/02/probabilidad-y-estadistica-para-el-MEIF.pdf" target="_blank" class="pdf-link" style="color: #1565c0; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Muestreo y Distribuciones</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Unidad 3: Estimación -->
+                <div style="background: #f3e5f5; padding: 20px; border-radius: 10px; border-left: 4px solid #9c27b0;">
+                    <h3 style="color: #6a1b9a; margin-bottom: 15px; font-size: 1.1em;">📏 Unidad 3: Estimación</h3>
+                    <div style="background: #e1bee7; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+                        <a href="https://bidis.udelas.ac.pa/index.php/BIDIS/catalog/download/763/676/2090?inline=1" target="_blank" class="pdf-link" style="color: #6a1b9a; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Inferencia Estadística</span>
+                        </a>
+                    </div>
+                    <div style="background: #e1bee7; padding: 12px; border-radius: 8px;">
+                        <a href="https://www.uv.mx/cq/files/2021/02/probabilidad-y-estadistica-para-el-MEIF.pdf" target="_blank" class="pdf-link" style="color: #6a1b9a; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Estimación e Intervalos</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Unidad 4: Pruebas de Hipótesis -->
+                <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; border-left: 4px solid #4caf50;">
+                    <h3 style="color: #2e7d32; margin-bottom: 15px; font-size: 1.1em;">🔬 Unidad 4: Pruebas de Hipótesis</h3>
+                    <div style="background: #c8e6c9; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+                        <a href="https://www.uv.mx/cq/files/2021/02/probabilidad-y-estadistica-para-el-MEIF.pdf" target="_blank" class="pdf-link" style="color: #2e7d32; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Pruebas de Hipótesis</span>
+                        </a>
+                    </div>
+                    <div style="background: #c8e6c9; padding: 12px; border-radius: 8px;">
+                        <a href="https://biblioteca.ucuenca.edu.ec/digital/files/original/9a93536fd61609f0e457e10b145f89af0bb7dc40.pdf" target="_blank" class="pdf-link" style="color: #2e7d32; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 1.2em;">📄</span>
+                            <span>Teoría Estadística de Decisión</span>
+                        </a>
                     </div>
                 </div>
             </div>
